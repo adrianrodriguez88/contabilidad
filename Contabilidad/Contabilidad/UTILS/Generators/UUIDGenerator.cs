@@ -4,9 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Contabilidad.UTILS.Generators
+namespace Contabilidad/*.UTILS.Generators*/
 {
-    class UUIDGenerator
+    public class UUIDGenerator
     {
+        public static string Uuid()
+        {
+            string _uuid = "";
+           
+            _uuid = Guid.NewGuid().ToString();            
+
+            return _uuid;
+        }
+        
     }
 }

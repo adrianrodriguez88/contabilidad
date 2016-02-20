@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Contabilidad
+namespace Contabilidad.UI.Presupuesto
 {
-    public partial class Form1 : Form
+    public partial class TXEditarInicial : Form
     {
-        public Form1()
+        public TXEditarInicial()
         {
             InitializeComponent();
-            UUIDGenerator.Uuid();
         }
     }
 }

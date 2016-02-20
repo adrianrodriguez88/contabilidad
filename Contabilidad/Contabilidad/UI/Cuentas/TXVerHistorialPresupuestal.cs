@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Contabilidad
+namespace Contabilidad.UI.Cuentas
 {
-    public partial class Form1 : Form
+    public partial class TXVerHistorialPresupuestal : Form
     {
-        public Form1()
+        public TXVerHistorialPresupuestal()
         {
             InitializeComponent();
-            UUIDGenerator.Uuid();
         }
     }
 }

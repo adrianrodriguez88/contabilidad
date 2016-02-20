@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Contabilidad
+namespace Contabilidad.UI.Polizas
 {
-    public partial class Form1 : Form
+    public partial class TXListar : Form
     {
-        public Form1()
+        public TXListar()
         {
             InitializeComponent();
-            UUIDGenerator.Uuid();
         }
     }
 }

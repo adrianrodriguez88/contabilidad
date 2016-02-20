@@ -8,14 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Contabilidad
+namespace Contabilidad.UI.Presupuesto
 {
-    public partial class Form1 : Form
+    public partial class TXAgregarAumentoReduccion : Form
     {
-        public Form1()
+        public TXAgregarAumentoReduccion()
         {
             InitializeComponent();
-            UUIDGenerator.Uuid();
         }
     }
 }
